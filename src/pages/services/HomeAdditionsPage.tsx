@@ -222,8 +222,11 @@ const HomeAdditionsPage = () => {
               Why Choose Home Additions?
             </h2>
             <p className="text-[18px] font-semibold font-mona text-gray-600 max-w-3xl mx-auto">
-              Home additions offer the perfect solution for growing families and
-              changing lifestyle needs without the expense and stress of moving.
+              Home additions are an ideal way to adapt your house to your
+              changing lifestyle. From expanding living areas to building
+              entertainment spaces or private retreats, you can create the
+              perfect environment for your family without leaving the place you
+              already call home.
             </p>
           </div>
 
@@ -305,8 +308,10 @@ const HomeAdditionsPage = () => {
               Our Addition Planning Process
             </h2>
             <p className="text-[18px] font-semibold font-mona text-gray-600 max-w-3xl mx-auto">
-              We follow a comprehensive process to ensure your home addition is
-              perfectly planned and executed.
+              We follow a comprehensive process that covers every stage of your
+              home addition, from initial consultation and planning to
+              construction and finishing touches, ensuring your new space is
+              seamlessly integrated and built to the highest standards.
             </p>
           </div>
 
@@ -427,8 +432,9 @@ const HomeAdditionsPage = () => {
             Ready to Expand Your Living Space?
           </h2>
           <p className="text-[18px] font-semibold font-mona text-white mb-8 opacity-95">
-            Let's discuss your home addition ideas and create the extra space
-            your family needs. Contact us for a consultation.
+            Let’s collaborate on your home addition project and bring your
+            vision to life. Contact our team today to schedule a consultation
+            and explore the possibilities for expanding your home.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button

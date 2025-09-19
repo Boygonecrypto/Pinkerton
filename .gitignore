@@ -27,7 +27,6 @@ dist-ssr
 .env.*.local
 build
 .netlify
-vercel.json
 /.vite
 /.cache
 

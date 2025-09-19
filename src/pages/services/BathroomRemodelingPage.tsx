@@ -1,9 +1,16 @@
-import { useEffect, useRef } from 'react';
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import Navigation from '../../components/Navigation';
-import Footer from '../../components/Footer';
-import { Droplets, Sparkles, Shield, Zap, TrendingUp, Heart } from 'lucide-react';
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Navigation from "../../components/Navigation";
+import Footer from "../../components/Footer";
+import {
+  Droplets,
+  Sparkles,
+  Shield,
+  Zap,
+  TrendingUp,
+  Heart,
+} from "lucide-react";
 
 const BathroomRemodelingPage = () => {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -11,18 +18,20 @@ const BathroomRemodelingPage = () => {
   const stylesRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    gsap.fromTo(heroRef.current,
+    gsap.fromTo(
+      heroRef.current,
       { y: 30, opacity: 0 },
       {
         y: 0,
         opacity: 1,
         duration: 1,
         ease: "power2.out",
-        delay: 0.5
+        delay: 0.5,
       }
     );
 
-    gsap.fromTo(featuresRef.current?.children || [],
+    gsap.fromTo(
+      featuresRef.current?.children || [],
       { y: 50, opacity: 0 },
       {
         y: 0,
@@ -33,8 +42,8 @@ const BathroomRemodelingPage = () => {
         scrollTrigger: {
           trigger: featuresRef.current,
           start: "top 70%",
-          toggleActions: "play none none reverse"
-        }
+          toggleActions: "play none none reverse",
+        },
       }
     );
   }, []);
@@ -43,50 +52,82 @@ const BathroomRemodelingPage = () => {
     {
       icon: <Droplets className="h-8 w-8" />,
       title: "Spa-Like Experience",
-      description: "Transform your bathroom into a relaxing spa retreat with luxury fixtures and finishes."
+      description:
+        "Transform your bathroom into a relaxing spa retreat with luxury fixtures and finishes.",
     },
     {
       icon: <Sparkles className="h-8 w-8" />,
       title: "Modern Amenities",
-      description: "Smart mirrors, heated floors, and advanced lighting for ultimate comfort."
+      description:
+        "Smart mirrors, heated floors, and advanced lighting for ultimate comfort.",
     },
     {
       icon: <Shield className="h-8 w-8" />,
       title: "Water Protection",
-      description: "Proper waterproofing and ventilation to prevent moisture damage."
+      description:
+        "Proper waterproofing and ventilation to prevent moisture damage.",
     },
     {
       icon: <TrendingUp className="h-8 w-8" />,
       title: "Increase Value",
-      description: "Bathroom renovations provide excellent return on investment."
-    }
+      description:
+        "Bathroom renovations provide excellent return on investment.",
+    },
   ];
 
   const bathroomStyles = [
     {
       title: "Luxury Spa Bathroom",
-      description: "Create a resort-like experience with premium materials and spa features.",
-      image: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&h=300&fit=crop",
-      features: ["Walk-in shower", "Soaking tub", "Heated floors", "Premium fixtures"]
+      description:
+        "Create a resort-like experience with premium materials and spa features.",
+      image:
+        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&h=300&fit=crop",
+      features: [
+        "Walk-in shower",
+        "Soaking tub",
+        "Heated floors",
+        "Premium fixtures",
+      ],
     },
     {
       title: "Modern Minimalist",
-      description: "Clean lines, geometric shapes, and sleek surfaces for contemporary appeal.",
-      image: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=400&h=300&fit=crop",
-      features: ["Floating vanities", "Frameless glass", "LED lighting", "Neutral colors"]
+      description:
+        "Clean lines, geometric shapes, and sleek surfaces for contemporary appeal.",
+      image:
+        "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=400&h=300&fit=crop",
+      features: [
+        "Floating vanities",
+        "Frameless glass",
+        "LED lighting",
+        "Neutral colors",
+      ],
     },
     {
       title: "Traditional Elegance",
-      description: "Classic design elements with timeless appeal and sophisticated finishes.",
-      image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=400&h=300&fit=crop",
-      features: ["Clawfoot tub", "Subway tile", "Pedestal sink", "Classic hardware"]
+      description:
+        "Classic design elements with timeless appeal and sophisticated finishes.",
+      image:
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=400&h=300&fit=crop",
+      features: [
+        "Clawfoot tub",
+        "Subway tile",
+        "Pedestal sink",
+        "Classic hardware",
+      ],
     },
     {
       title: "Small Space Solutions",
-      description: "Maximize functionality in compact bathrooms with smart storage solutions.",
-      image: "https://images.unsplash.com/photo-1556912173-3bb406ef7e77?w=400&h=300&fit=crop",
-      features: ["Space-saving fixtures", "Built-in storage", "Light colors", "Clever layouts"]
-    }
+      description:
+        "Maximize functionality in compact bathrooms with smart storage solutions.",
+      image:
+        "https://images.unsplash.com/photo-1611066415506-54b1bf5da1f7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2FsayUyMGluJTIwc2hvd2VyJTIwYmF0aHJvb218ZW58MHx8MHx8fDA%3D",
+      features: [
+        "Space-saving fixtures",
+        "Built-in storage",
+        "Light colors",
+        "Clever layouts",
+      ],
+    },
   ];
 
   const luxuryFeatures = [
@@ -95,7 +136,7 @@ const BathroomRemodelingPage = () => {
     "Smart mirrors with LED lighting",
     "Soaking tubs and whirlpools",
     "Custom tile work and natural stone",
-    "High-end fixtures and hardware"
+    "High-end fixtures and hardware",
   ];
 
   return (
@@ -157,8 +198,9 @@ const BathroomRemodelingPage = () => {
               Transform Your Bathroom Into a Personal Sanctuary
             </h2>
             <p className="text-[18px] font-semibold font-mona text-gray-600 max-w-3xl mx-auto">
-              Our bathroom remodeling expertise combines luxury design with
-              practical functionality to create spaces you'll love.
+              We combine years of remodeling expertise with a commitment to
+              luxury design and functional detail, creating bathrooms that
+              elevate your home while perfectly balancing beauty and usability.
             </p>
           </div>
 
@@ -194,8 +236,8 @@ const BathroomRemodelingPage = () => {
               Popular Bathroom Styles
             </h2>
             <p className="text-[18px] font-semibold font-mona text-gray-600 max-w-3xl mx-auto">
-              Discover different bathroom styles and find the perfect design
-              that matches your vision and lifestyle.
+              From modern minimalism to timeless elegance, discover bathroom
+              styles that match your vision and bring your lifestyle to life.
             </p>
           </div>
 
@@ -274,7 +316,7 @@ const BathroomRemodelingPage = () => {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
                 <img
-                  src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?w=600&h=400&fit=crop"
+                  src="https://images.unsplash.com/photo-1611066415506-54b1bf5da1f7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2FsayUyMGluJTIwc2hvd2VyJTIwYmF0aHJvb218ZW58MHx8MHx8fDA%3D"
                   alt="Accessible bathroom design"
                   className="rounded-xl shadow-lg"
                 />
@@ -344,8 +386,10 @@ const BathroomRemodelingPage = () => {
             Ready to Create Your Dream Bathroom?
           </h2>
           <p className="text-[18px] font-semibold font-mona text-white mb-8 opacity-95">
-            Let's design a beautiful, functional bathroom that enhances your
-            daily routine. Schedule your consultation today.
+            We’ll partner with you to design a bathroom that’s not only stunning
+            but also highly functional, making your daily routine more enjoyable
+            and stress-free. Schedule your consultation today and let’s bring
+            your vision to life.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button

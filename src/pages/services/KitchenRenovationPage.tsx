@@ -199,8 +199,10 @@ const KitchenRenovationPage = () => {
               Why Choose Our Kitchen Renovation Services?
             </h2>
             <p className="text-[18px] font-semibold font-mona text-gray-600 max-w-3xl mx-auto">
-              We combine culinary expertise with construction excellence to
-              create kitchens that are both beautiful and highly functional.
+              We combine our deep culinary expertise with decades of
+              construction excellence to design and build kitchens that are not
+              only visually stunning but also thoughtfully planned for everyday
+              functionality, comfort, and efficiency.
             </p>
           </div>
 
@@ -236,8 +238,9 @@ const KitchenRenovationPage = () => {
               Popular Kitchen Styles
             </h2>
             <p className="text-[18px] font-semibold font-mona text-gray-600 max-w-3xl mx-auto">
-              Explore different kitchen styles and find the perfect design that
-              matches your taste and lifestyle.
+              Discover a wide range of kitchen styles, from sleek modern designs
+              to timeless classics, and find the perfect fit that reflects your
+              personal taste and enhances your lifestyle.
             </p>
           </div>
 
@@ -378,8 +381,9 @@ const KitchenRenovationPage = () => {
             Ready to Create Your Dream Kitchen?
           </h2>
           <p className="text-[18px] font-semibold font-mona text-white mb-8 opacity-95">
-            Let's design and build the kitchen you've always wanted. Schedule
-            your free consultation today.
+            Your ideal kitchen is closer than you think. Partner with our
+            experienced team to design and build the space you’ve always dreamed
+            of. Schedule your free consultation now.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button

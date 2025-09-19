@@ -214,8 +214,11 @@ const RoofRepairPage = () => {
               Comprehensive Roofing Services
             </h2>
             <p className="text-[18px] font-semibold font-monatext-xl text-gray-600 max-w-3xl mx-auto">
-              From minor repairs to complete roof replacements, we provide all
-              the roofing services you need to protect your home.
+              From minor roof repairs to full-scale replacements, we offer
+              comprehensive roofing services designed to protect your home,
+              enhance curb appeal, and ensure long-term durability. Our skilled
+              team uses only quality materials and proven techniques to deliver
+              results you can trust.
             </p>
           </div>
 
@@ -251,8 +254,10 @@ const RoofRepairPage = () => {
               Quality Roofing Materials
             </h2>
             <p className="text-[18px] font-semibold font-mona text-gray-600 max-w-3xl mx-auto">
-              We work with top-quality roofing materials to ensure your roof
-              provides lasting protection and enhances your home's appearance.
+              Our team partners with trusted suppliers to provide roofing
+              materials of the highest quality. This means your new roof won’t
+              just stand up to Texas weather, but will also enhance the style,
+              comfort, and appearance of your home.
             </p>
           </div>
 
@@ -342,8 +347,10 @@ const RoofRepairPage = () => {
                 Why Choose Pinkerton Construction for Roofing?
               </h2>
               <p className="text-[16px] font-semibold font-mona text-gray-600 max-w-3xl mx-auto">
-                With over 25 years of roofing experience, we're the trusted
-                choice for homeowners throughout Texas.
+                Backed by more than 25 years of roofing expertise, we proudly
+                serve homeowners throughout Texas with dependable solutions.
+                From small repairs to complete roof installations, our team
+                delivers results that stand the test of time.
               </p>
             </div>
 
