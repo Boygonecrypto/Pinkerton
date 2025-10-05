@@ -221,7 +221,7 @@ const Footer = () => {
                   href="mailto:info@pinkertonconstruction.com"
                   className="text-gray-300 hover:text-yellow-400 transition-colors duration-300"
                 >
-                  info@pinkertonconstruction.com
+                  info@pinkertoncontruction.com
                 </a>
               </div>
 

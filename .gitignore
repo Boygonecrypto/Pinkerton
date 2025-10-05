@@ -29,4 +29,5 @@ build
 .netlify
 /.vite
 /.cache
+.env.example
 

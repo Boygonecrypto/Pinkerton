@@ -52,7 +52,7 @@ const ContactForm = () => {
                       href="mailto:info@pinkertonconstruction.com"
                       className="text-yellow-600 font-medium underline"
                     >
-                      info@pinkertonconstruction.com
+                      info@pinkertoncontruction.com
                     </a>
                   </p>
                 </div>
@@ -113,7 +113,7 @@ const ContactForm = () => {
               </div>
               <div>
                 <h4 className="font-semibold text-yellow-400 mb-2">Email</h4>
-                <p>info@pinkertonconstruction.com</p>
+                <p>info@pinkertoncontruction.com</p>
               </div>
               <div>
                 <h4 className="font-semibold text-yellow-400 mb-2">Address</h4>
